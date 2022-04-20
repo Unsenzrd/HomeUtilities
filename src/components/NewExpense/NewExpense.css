@@ -14,7 +14,7 @@
   cursor: pointer;
   padding: 1rem 2rem;
   border: 1px solid white;
-  background-color: #a4ff3c;
+  background-color: #bdfa2e;
   color: white;
   border-radius: 12px;
   margin-right: 1rem;
@@ -22,17 +22,17 @@
 
 .new-expense button:hover,
 .new-expense button:active {
-  background-color: #a4ff3c;
+  background-color: #c0db81;
   border-color: #ffffff;
 }
 
 .new-expense button.alternative {
-  color: #6e9601;
+  color: #bdfa2e;
   border-color: transparent;
   background-color: transparent;
 }
 
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
-  background-color: #c7f8b3;
+  background-color: #c0db81;
 }
