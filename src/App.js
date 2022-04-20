@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
   const expenses = [
@@ -23,9 +24,19 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log(expense);
+    console.log("Expense Added in app.js");
+    expenses.push(expense);
+    console.log(expenses);
+  };
+
   return (
-    <div className="headerText">
-      <h2>Expense Tracker</h2>
+    <div className="globalText">
+      <h2 className="globalText" id="headerText">
+        Expense Tracker
+      </h2>
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses data={expenses} />
     </div>
   );

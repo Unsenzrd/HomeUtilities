@@ -13,10 +13,13 @@ body {
   background-color: #292929;
 }
 
-.headerText {
+.globalText {
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 2rem;
   color: #fff;
   text-align: center;
   margin-bottom: 1rem;
+}
+
+#headerText {
+  font-size: 2rem;
 }
